@@ -1,0 +1,5 @@
+GET https://pokeapi.co/api/v2/pokemon/25
+x-header-example: 'header value'
+
+###
+GET https://pokeapi.co/api/v2/pokemon/6
