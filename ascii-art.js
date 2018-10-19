@@ -14,7 +14,7 @@ async function outputImage(fileName) {
 
 async function generateAsciiArt() {
   try {
-    const fileNames = ['nasa.jpg', 'space-apps.jpg'];
+    const fileNames = ['nasa.jpeg', 'space-apps.jpeg'];
     const selectedFileIndex = Math.round(Math.random());
     outputImage(fileNames[selectedFileIndex]);
   } catch (error) {
